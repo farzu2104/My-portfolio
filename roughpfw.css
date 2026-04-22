@@ -1,0 +1,146 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background:#0f172a;
+  color:white;
+}
+#about{
+  padding-top: 80px;
+}
+header{
+    position: absolute;
+    width: 100%;
+    background-color: #45111D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    height: 50px;
+    padding: 20px;
+}
+.logo{
+    font-size: 25px;
+    color: cornsilk;
+    text-decoration: none;
+}
+.navbar a {
+    color: #ACC8E5;
+    text-decoration: none;
+    margin-left: 25px;
+    border-bottom: 2px solid transparent;
+    transition: 2s
+    
+}
+.navbar a:hover,
+.navbar a.one{
+     border-color: black;
+}
+/* HERO */
+.content{
+  padding: 30px;
+}
+.first{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background:linear-gradient(135deg,#1e3a8a,#9333ea);
+}
+
+.hero h1{
+  font-size:3rem;
+}
+
+.hero span{
+  color:#facc15;
+}
+
+.hero h2{
+  margin:10px 0;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:10px 20px;
+  background:#facc15;
+  color:black;
+  text-decoration:none;
+  border-radius:20px;
+  transition:0.8s;
+}
+
+.btn:hover{
+  background: pink;
+}
+
+/* SECTIONS */
+section{
+  padding:60px 20px;
+  text-align:center;
+}
+
+h2{
+  margin-bottom:20px;
+  font-size:2rem;
+}
+
+/* SKILLS */
+.skill-box{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.skill-box div{
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+  width:250px;
+  transition:0.3s;
+}
+
+.skill-box div:hover{
+  transform:translateY(-10px);
+}
+
+/* PROJECTS */
+.project-box{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.card{
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+  width:250px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.05);
+}
+
+/* CONTACT */
+.contact p{
+  margin:10px 0;
+}
+
+/* FOOTER */
+footer{
+  padding:20px;
+  background:#020617;
+}
