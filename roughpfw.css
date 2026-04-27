@@ -18,7 +18,7 @@ body{
 header{
     position: absolute;
     width: 100%;
-    background-color: #45111D;
+    background:#0f172a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +47,7 @@ header{
 .content{
   padding: 30px;
 }
-.first{
+.hero{
   height:100vh;
   display:flex;
   justify-content:center;
